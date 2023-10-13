@@ -1,0 +1,181 @@
+
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: rgb(22,156,15);
+background: linear-gradient(0deg, rgba(22,156,15,1) 7%, rgba(8,45,6,1) 27%, rgba(0,0,0,1) 88%);
+   flex-direction: column;
+}
+  
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(2, 10, 2);
+    color: rgb(81, 255, 0);
+    border-radius: 20px;
+    width: 100%;
+
+} 
+.dotone{
+    font-size: 27px;
+}
+.dottwo{
+    font-size: 27px;
+}
+h1{
+    color: rgb(80, 245, 4);
+}
+#timing{
+    font-size: 13px;
+}
+
+@media(min-width:768px){
+    p{
+        font-size: 27px;
+    }.dotone{
+        font-size: 37px;
+    }
+    .dottwo{
+        font-size: 37px;
+    }
+    #timing{
+        font-size: 19px;
+    }
+}
+@media(min-width:1024px){
+    p{
+        font-size: 35px;
+    }.dotone{
+        font-size: 45px;
+    }
+    .dottwo{
+        font-size: 45px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    #timing{
+        font-size: 27px;
+    }
+}
+
+/* p{
+    margin:15px 35px;
+    font-size: 14px;
+}
+span{
+    color: rgb(255, 255, 255);
+}
+.dot{
+    display: flex;
+}
+.dotsone{
+ 
+    color: rgb(80, 245, 4);
+        font-size: 35px;
+}
+.dotstwo{
+    
+    color: rgb(80, 245, 4);
+    
+    font-size: 35px;
+}
+.timing{
+    color: green;
+    font-size: 20px;
+}
+h1{
+
+    color: rgb(80, 245, 4);
+} */
+
+/* @media(min-width:375px){
+    .dotsone{
+        left: 106px;
+   
+    }  
+    .dotstwo{
+        left: 225px;
+    }
+    h1{
+        left: 85px;
+    }
+}
+
+
+@media(min-width:425px){
+    .dotsone{
+        left: 130px;
+   
+    }  
+    h1{
+        left: 115px;
+    }
+    .dotstwo{
+        left:    250px;
+    }   
+}
+
+@media(min-width:768px){
+    .dotsone{
+        left: 292px;
+   top: 339px;
+    }
+    h1{
+        left: 280px;
+        top: 234px;
+    }  
+    .dotstwo{
+        left: 425px;
+        top: 339px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+@media(min-width:1024px){
+    .dotsone{
+        left: 575px;
+        top: 510px;
+        font-size: 60px;
+   
+    }
+    h1{
+        left: 340px;
+        font-size: 60px;
+        top: 311px;
+    }  
+    .dotstwo{
+        left: 383px;
+        top: 510px;
+        font-size: 60px;
+    }
+    p{
+        font-size: 38px;
+    }
+}
+
+@media(min-width:1150px){
+    .dotsone{
+        left: 431px;
+        top: 421px;
+   
+    }  
+    .dotstwo{
+        left: 628px;
+        top: 423px;
+    }
+    p{
+        font-size: 40px;
+    }
+    h1{
+        left: 399px;
+        font-size: 60px;
+        top: 265px;
+    } 
+} */
